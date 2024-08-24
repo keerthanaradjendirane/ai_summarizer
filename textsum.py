@@ -4,7 +4,7 @@ from langchain import LLMChain
 from langchain.prompts import PromptTemplate
 
 
-api_key = st.secret["GEMINI_API"]
+api_key = st.secrets["GEMINI_API"]
 genai.configure(api_key=api_key)
 
 
