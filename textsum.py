@@ -2,7 +2,6 @@ import google.generativeai as genai
 import streamlit as st
 from langchain import LLMChain
 from langchain.prompts import PromptTemplate
-from langchain.llms import OpenAI
 
 
 api_key = st.secret["GEMINI_API"]
