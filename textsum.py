@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 from langchain.llms import OpenAI
 
 
-api_key = 'AIzaSyDX3HE-dhk-0xUc7amKaIz8avJ6gpUFeGo'
+api_key = st.secret["GEMINI_API"]
 genai.configure(api_key=api_key)
 
 
